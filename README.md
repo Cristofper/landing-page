@@ -1,0 +1,1 @@
+This is the final project to showcase the skills that I have learned for the foundations flex-box section of the odin project. 
