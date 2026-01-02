@@ -1,0 +1,42 @@
+body {
+    min-height: 100vh; /*what does this mean*/
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.links{
+    display: flex;
+    padding: 0px;
+    list-style: none;
+    
+
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1; 
+}
+.section1{
+    flex: 1;
+}
+.section2{
+    background-color: white;
+    flex: 1;
+
+}
+.section3{
+    background-color: #3882F6;
+    flex: 1; 
+}
+.section4{
+    background-color: #e5e7eb;
+    flex: 1; 
+}
