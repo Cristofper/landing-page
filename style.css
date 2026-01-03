@@ -3,20 +3,34 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif; 
 
     
 }
 .header{
     display: flex;
     justify-content: space-between; 
+    align-items: center;
+    color: white;
+    
 }
 
+.logo{
+    
+}
 .links{
     display: flex;
     padding: 0px;
     list-style: none;
     
+}
+li{
+    padding: 8px;
 
+}
+
+a{
+    text-decoration: none; /*why does this need to be applied to an anchor?*/
 }
 .content {
     display: flex;
@@ -24,19 +38,42 @@ body {
     flex-direction: column;
     flex: 1; 
 }
-.section1{
+.section1, .section2, .section3, .section4{
     flex: 1;
+}
+.section1{
+  color: white;
+  display: flex;
+}
+.intro{
+}
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.button1{
+    background-color: #3882F6;
+    border: 0px; 
+    border-radius: 5px;
 }
 .section2{
     background-color: white;
-    flex: 1;
 
 }
 .section3{
     background-color: #3882F6;
-    flex: 1; 
+ 
 }
 .section4{
-    background-color: #e5e7eb;
-    flex: 1; 
+    background-color: #e5e7eb; 
+}
+
+.footer {
+    color: white;
 }
