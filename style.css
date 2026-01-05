@@ -77,7 +77,6 @@ a{
 }
 .info{
     display: flex;
-
 }
 .square{
     width: 150px;
@@ -99,10 +98,25 @@ a{
     width: 150px;
 
 }
-
 .section3{
     background-color: #e5e7eb;
- 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937; 
+    width: 900px; 
+}
+.speaker{
+    font-weight:900;
+    width: 800px; 
+    text-align: end;
+
+
 }
 .section4{
     background-color: white; 
