@@ -116,11 +116,50 @@ a{
     width: 800px; 
     text-align: end;
 
-
 }
 .section4{
     background-color: white; 
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.rectangle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 125px; 
+    border-radius: 10px;
+    
+
+}
+.call{
+ 
+}
+.action{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+.product{
+    color: white;
+
+}
+.button2{
+    width: 100px;
+    height: 28px;
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    font-weight: bold;
+    
+}
 .footer {
+    color: white;
+    text-align: center;
+    margin: 24px;
 }
